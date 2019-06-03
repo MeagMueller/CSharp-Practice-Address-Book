@@ -4,10 +4,12 @@ using System.Collections.Generic;
 namespace address_book {
 
     public class AddressBook {
-        public string FirstName { get; set; }
+        public Dictionary<string, Contact> Contacts { get; set; } = new Dictionary<string, Contact>();
 
-        public string LastName { get; set; }
+         public void AddContact(Contact Contact) {
+            
+        }
 
-        public List
+        
     }
 }
