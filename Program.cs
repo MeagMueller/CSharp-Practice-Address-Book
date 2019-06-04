@@ -47,8 +47,15 @@ namespace address_book
             addressBook.AddContact(sue);
             addressBook.AddContact(juan);
 
-            // Try to addd a contact a second time
-            addressBook.AddContact(sue);
+            // Try to add a contact a second time
+            try 
+            {
+                addressBook.AddContact(sue);
+            } 
+            catch (Exception)
+            {
+                Console.WriteLine("This contact has already been added.");
+            }
 
 
             // Create a list of emails that match our Contacts
@@ -65,11 +72,18 @@ namespace address_book
             //  Search the AddressBook by email and print the information about each Contact
             foreach (string email in emails)
             {
-                Contact contact = addressBook.GetByEmail(email);
-                Console.WriteLine("----------------------------");
-                Console.WriteLine($"Name: {contact.FullName}");
-                Console.WriteLine($"Email: {contact.Email}");
-                Console.WriteLine($"Address: {contact.Address}");
+                try { 
+                    Contact contact = addressBook.GetByEmail(email);
+                    Console.WriteLine("----------------------------");
+                    Console.WriteLine($"Name: {contact.FullName}");
+                    Console.WriteLine($"Email: {contact.Email}");
+                    Console.WriteLine($"Address: {contact.Address}");
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("----------------------------");
+                    Console.WriteLine("This email does not match any contacts.");
+                }
             }
         }
     }
