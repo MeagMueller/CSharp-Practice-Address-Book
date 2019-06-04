@@ -1,0 +1,11 @@
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\bin\Debug\netcoreapp2.2\address-book.deps.json
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\bin\Debug\netcoreapp2.2\address-book.runtimeconfig.json
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\bin\Debug\netcoreapp2.2\address-book.runtimeconfig.dev.json
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\bin\Debug\netcoreapp2.2\address-book.dll
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\bin\Debug\netcoreapp2.2\address-book.pdb
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\obj\Debug\netcoreapp2.2\address-book.csprojAssemblyReference.cache
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\obj\Debug\netcoreapp2.2\address-book.csproj.CoreCompileInputs.cache
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\obj\Debug\netcoreapp2.2\address-book.AssemblyInfoInputs.cache
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\obj\Debug\netcoreapp2.2\address-book.AssemblyInfo.cs
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\obj\Debug\netcoreapp2.2\address-book.dll
+C:\Users\Meag\workspace\csharp\exercises\exceptions\address-book\obj\Debug\netcoreapp2.2\address-book.pdb
